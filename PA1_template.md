@@ -33,7 +33,7 @@ median_day
 ```r
 plot1 <- hist(sum_day$steps, 8)
 abline(v = mean_day, untf = FALSE, col= "red" )
-abline(v = median_day-30, untf = FALSE, col= "blue" )
+abline(v = median_day-40, untf = FALSE, col= "blue" )
 legend("topright", c("mean_day","median_day"), lty=c(1,1), col = c("red","blue"))
 ```
 
